@@ -103,6 +103,7 @@ const Header1 = () => {
           className="container clearfix header-mobile"
           // style={{ maxWidth: "100%" }}
         >
+          <input type="file" accept="image/*" capture="environment"/>
           <div
           
             className="header-inner rel d-flex align-items-center"
