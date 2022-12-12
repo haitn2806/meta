@@ -1,0 +1,206 @@
+*,
+html {
+  scroll-behavior: smooth !important;
+}
+/* .navigation li ul,
+.navigation li ul li.dropdown ul {
+  display: block !important;
+  overflow: hidden;
+  height: 0px;
+  -webkit-transition: height 0.3s linear, padding-top 0.3s linear;
+}
+.navigation li:hover ul,
+.navigation li ul li.dropdown:hover ul {
+  height: 100px;
+} */
+.navigation li.dropdown > ul {
+  /* display: block !important;
+  max-height: 0;
+  transition-delay: 4s all;
+  transition: max-height 0.35s ease-out, opacity 0.35s; */
+  /* overflow: hidden; */
+  /* opacity: 0; */
+  width: 400px;
+}
+
+.navigation li.dropdown .ul-first {
+  width: 603px;
+}
+
+.navigation li.dropdown:hover > ul {
+  display: block;
+  /* max-height: 500px;
+  transition: max-height 0.65s ease-in, opacity 1.65s;
+  opacity: 1; */
+}
+
+.dark-version .dark-logo {
+  display: none;
+}
+.dark-version .light-logo {
+  display: block;
+}
+.light-logo {
+  display: none;
+}
+
+/* Slick slider */
+.slick-dots {
+  display: flex !important;
+}
+.feedback-active .slick-slide {
+  padding: 0 15px;
+}
+
+.page-item .page-link {
+  border-radius: 50% !important;
+}
+
+.product-details-images .nav-link {
+  padding: 0;
+}
+
+figure > img {
+  max-width: 100%;
+  max-height: 80%;
+}
+
+/* @media (min-width: 768px) {
+  .product-s {
+    max-width: 720px;
+  }
+} */
+/* @media (min-width: 576px) {
+  .container {
+    max-width: 350px;
+  }
+} */
+
+.box-wrapper-retained-clients {
+  height: 640px;
+  position: relative;
+}
+
+.box-retained-clients {
+  font-family: Barlow;
+  font-size: 1.6rem;
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: #121212;
+
+  display: flex;
+  padding-top: 45.5rem;
+  background: url("http://smartwork.3i.com.vn/lib/delicate/images/icon-bg-client-left.svg")
+    no-repeat top;
+  /* background: url("http://smartwork.3i.com.vn/lib/delicate/images/3i/icon-bg-client-left.png")
+    no-repeat top; */
+  background-size: 1192px 605px;
+
+  /* background-size: cover; */
+  margin-left: -8.5rem;
+  margin-right: -8.5rem;
+  /* position: relative; */
+  top: -7.8rem;
+  z-index: 1;
+
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+#mySVG,
+#world2,
+#mySVG-responsive {
+  position: absolute;
+}
+
+#mySVG,
+#mySVG-responsive {
+  top: -3%;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* #c1 {
+  cx: 670;
+  cy: 140;
+  r: 17.5498;
+  fill: rgb(141, 198, 63);
+  stroke: rgb(141, 198, 63);
+  stroke-width: 1;
+  fill-opacity: 0.8;
+  stroke-opacity: 0.9;
+} */
+
+#c2 {
+  /* cx: 670;
+  cy: 140; */
+  r: 8;
+  fill: rgb(174, 214, 118);
+  stroke: rgb(174, 214, 118);
+  stroke-width: 1;
+  fill-opacity: 0.9;
+  stroke-opacity: 0.2;
+}
+
+#c3 {
+  /* cx: 670;
+  cy: 140; */
+  r: 3;
+  fill: rgb(141, 198, 63);
+  stroke: rgb(141, 198, 63);
+  stroke-width: 1;
+  fill-opacity: 0.9;
+  stroke-opacity: 0.2;
+}
+
+#mapDiv {
+  /* margin: 9px; */
+}
+
+select {
+  -webkit-appearance: none !important;
+}
+
+.list-client {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.list-client {
+  position: absolute;
+  bottom: -20rem;
+  z-index: 2;
+  left: 0;
+  width: 117rem;
+}
+
+.list-client .item {
+  padding: 0 1.5rem;
+  margin-top: 1.5rem;
+}

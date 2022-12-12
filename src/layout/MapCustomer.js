@@ -1,0 +1,1436 @@
+import React from "react";
+
+const MapCustomer = () => {
+  return (
+    <div>
+      <div class="box-wrapper-retained-clients">
+        <div class="box-retained-clients">
+          <svg id="mySVG" width="1192" height="605" viewBox="0 0 1392 705">
+            <g opacity="1">
+              <g class="cCanada" style={{ display: "block" }}>
+                <text x="190" y="218" dx="-80" dy="5">
+                  America
+                </text>
+                <circle
+                  id="c2"
+                  cx="190"
+                  cy="218"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.9"
+                >
+                  <animate
+                    begin="americanAnimate.end+0.1s"
+                    attributeType="xml"
+                    attributeName="r"
+                    from="0"
+                    to="20"
+                    dur="1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                  <animate
+                    attributeName="opacity"
+                    from="1"
+                    to="0"
+                    dur="1s"
+                    begin="americanAnimate.end+0.1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                </circle>
+
+                <circle
+                  class="c8"
+                  cx="190"
+                  cy="218"
+                  r="0"
+                  fill="#aed676"
+                  stroke="#aed676"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id=""
+                    begin="americanAnimate.end"
+                    attributeName="r"
+                    from="3"
+                    to="8"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+                <circle
+                  class="c3"
+                  cx="190"
+                  cy="218"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="americanAnimate"
+                    begin="start.begin+2s"
+                    attributeName="r"
+                    from="0"
+                    to="3"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+              </g>
+              <path
+                class="box draw"
+                d="M 1150 380 Q 580 570 190 218 "
+                id="american"
+                stroke="#8dc63f"
+                stroke-width="1"
+                fill="none"
+              ></path>
+              <g class="cFrance" style={{ display: "block" }}>
+                <text x="758" y="157" dx="-75" dy="-10">
+                  Germany
+                </text>
+                <circle
+                  id="c1"
+                  cx="670"
+                  cy="140"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.8"
+                  stroke-opacity="0.9"
+                >
+                  <animate
+                    begin="franceAnimate.end+0.1s"
+                    attributeType="xml"
+                    attributeName="r"
+                    from="0"
+                    to="20"
+                    dur="1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                  <animate
+                    attributeName="opacity"
+                    from="1"
+                    to="0"
+                    dur="1s"
+                    begin="franceAnimate.end+0.1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                </circle>
+
+                <circle
+                  id="c2"
+                  class="c8"
+                  cx="670"
+                  cy="140"
+                  r="0"
+                  fill="#aed676"
+                  stroke="#aed676"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="au2"
+                    begin="franceAnimate.end"
+                    attributeName="r"
+                    from="3"
+                    to="8"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+                <circle
+                  id="c3"
+                  class="c3"
+                  cx="670"
+                  cy="140"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="franceAnimate"
+                    begin="start.begin+1s"
+                    attributeName="r"
+                    from="0"
+                    to="3"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+              </g>
+              <path
+                class="box draw"
+                d="M 1150 380 Q 800 380 670 140"
+                id="germany"
+                stroke="#8dc63f"
+                stroke-width="1"
+                fill="none"
+              ></path>
+              <g class="cHK" style={{ display: "block" }}>
+                <text x="1220" y="240" dx="-60" dy="5">
+                  Korea
+                </text>
+                <circle
+                  cx="1220"
+                  cy="240"
+                  id="c2"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.8"
+                  stroke-opacity="0.9"
+                >
+                  <animate
+                    begin="sinAnimate.end+0.1s"
+                    attributeType="xml"
+                    attributeName="r"
+                    from="0"
+                    to="20"
+                    dur="1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                  <animate
+                    attributeName="opacity"
+                    from="1"
+                    to="0"
+                    dur="1s"
+                    begin="sinAnimate.end+0.1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                </circle>
+
+                <circle
+                  class="c8"
+                  cx="1220"
+                  cy="240"
+                  r="0"
+                  fill="#aed676"
+                  stroke="#aed676"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="au2"
+                    begin="sinAnimate.end"
+                    attributeName="r"
+                    from="3"
+                    to="8"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+                <circle
+                  class="3"
+                  cx="1220"
+                  cy="240"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="au1"
+                    begin="start.begin"
+                    attributeName="r"
+                    from="0"
+                    to="3"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+              </g>
+              <path
+                class="box draw"
+                d="M 1150 380 Q 1190 350 1220 240 "
+                id="hongkong"
+                stroke="#8dc63f"
+                stroke-width="1"
+                fill="none"
+              ></path>
+              <g class="cHK" style={{ display: "block" }}>
+                <text x="1125" y="440" dx="-30" dy="30">
+                  Singapore{" "}
+                </text>
+                <circle
+                  id="c2"
+                  cx="1125"
+                  cy="440"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.8"
+                  stroke-opacity="0.9"
+                >
+                  <animate
+                    begin="sinAnimate.end+0.1s"
+                    attributeType="xml"
+                    attributeName="r"
+                    from="0"
+                    to="20"
+                    dur="1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                  <animate
+                    attributeName="opacity"
+                    from="1"
+                    to="0"
+                    dur="1s"
+                    begin="sinAnimate.end+0.1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                </circle>
+
+                <circle
+                  class="c3"
+                  cx="1125"
+                  cy="440"
+                  r="0"
+                  fill="#aed676"
+                  stroke="#aed676"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="au2"
+                    begin="sinAnimate.end"
+                    attributeName="r"
+                    from="3"
+                    to="8"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+                <circle
+                  class="c3"
+                  cx="1125"
+                  cy="440"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="sinAnimate"
+                    begin="start.begin"
+                    attributeName="r"
+                    from="0"
+                    to="3"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+              </g>
+              <path
+                class="box draw"
+                d="M 1150 380 Q 1170 420 1125 440 "
+                id="singapore"
+                stroke="#8dc63f"
+                stroke-width="1"
+                fill="none"
+              ></path>
+              <animate
+                class="anim1"
+                // xlink:href="#v-b"
+                attributeName="stroke-dashoffset"
+                from="3000"
+                to="0"
+                dur="2s"
+                begin="indefinite"
+                fill="freeze"
+                id="start"
+              ></animate>
+              <g class="cAu" style={{ display: "block" }}>
+                <text x="1267" y="240" dx="-20" dy="-20">
+                  Japan
+                </text>
+                <circle
+                  class="c5"
+                  id="ctest"
+                  cx="1267"
+                  cy="240"
+                  r="5"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.8"
+                  stroke-opacity="0.9"
+                >
+                  <animate
+                    id="japanEnd"
+                    begin="japanAnimate.end+0.1s"
+                    attributeType="xml"
+                    attributeName="r"
+                    from="0"
+                    to="20"
+                    dur="1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                  <animate
+                    attributeName="opacity"
+                    from="1"
+                    to="0"
+                    dur="1s"
+                    begin="japanAnimate.end+0.1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                </circle>
+
+                <circle
+                  class="c8"
+                  cx="1267"
+                  cy="240"
+                  r="8"
+                  fill="#aed676"
+                  stroke="#aed676"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="au2"
+                    begin="japanAnimate.end"
+                    attributeName="r"
+                    from="3"
+                    to="8"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+                <circle
+                  class="c3"
+                  cx="1267"
+                  cy="240"
+                  r="3"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="japanAnimate"
+                    begin="start.begin"
+                    attributeName="r"
+                    from="0"
+                    to="3"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+              </g>
+              <path
+                class="box draw"
+                d="M 1150 380 Q 1460 330 1267 240 "
+                id="japan"
+                stroke="#8dc63f"
+                stroke-width="1"
+                fill="none"
+              ></path>
+              Sorry, your browser does not support inline SVG.
+              <g></g>
+              <g class="cVietNam">
+                <text x="1150" y="380" dx="-60" dy="-20">
+                  Viet Nam
+                </text>
+                <circle
+                  cx="1150"
+                  cy="380"
+                  r="15"
+                  fill="#ff4d4d"
+                  stroke="#ff4d4d"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.2"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    begin="cVN.end+0.1s"
+                    attributeType="xml"
+                    attributeName="r"
+                    from="10"
+                    to="15"
+                    dur="0.5s"
+                    repeatCount="1"
+                    fill="freeze"
+                  ></animate>
+                </circle>
+
+                <circle
+                  class="c8"
+                  cx="1150"
+                  cy="380"
+                  r="10"
+                  fill="#ff1a1a"
+                  stroke="#ff1a1a"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id=""
+                    begin="cVN.end"
+                    attributeName="r"
+                    from="5"
+                    to="10"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+                <circle
+                  class="c3"
+                  cx="1150"
+                  cy="380"
+                  r="5"
+                  fill="#ff4d4d"
+                  stroke="#ff4d4d"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="cVN"
+                    begin="start.begin"
+                    attributeName="r"
+                    from="0"
+                    to="5"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+              </g>
+            </g>
+          </svg>
+          <svg
+            id="mySVG-responsive"
+            width="1392"
+            height="705"
+            viewBox="0 0 1392 705"
+          >
+            <g opacity="1">
+              <g class="cCanada" style={{ display: "block" }}>
+                <text x="600" y="218" dx="-80" dy="5">
+                  America
+                </text>
+                <circle
+                  cx="600"
+                  cy="218"
+                  id="c2"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.9"
+                >
+                  <animate
+                    begin="americanAnimate.end+0.1s"
+                    attributeType="xml"
+                    attributeName="r"
+                    from="0"
+                    to="20"
+                    dur="1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                  <animate
+                    attributeName="opacity"
+                    from="1"
+                    to="0"
+                    dur="1s"
+                    begin="americanAnimate.end+0.1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                </circle>
+
+                <circle
+                  class="c8"
+                  cx="600"
+                  cy="218"
+                  r="0"
+                  fill="#aed676"
+                  stroke="#aed676"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id=""
+                    begin="americanAnimate.end"
+                    attributeName="r"
+                    from="3"
+                    to="8"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+                <circle
+                  class="c3"
+                  cx="600"
+                  cy="218"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="americanAnimate"
+                    begin="start.begin+2s"
+                    attributeName="r"
+                    from="0"
+                    to="3"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+              </g>
+              <path
+                class="box draw"
+                d="M 700 380 Q 680 570 600 218 "
+                id="american"
+                stroke="#8dc63f"
+                stroke-width="1"
+                fill="none"
+              ></path>
+              <g class="cFrance" style={{ display: "block" }}>
+                <text x="650" y="157" dx="-75" dy="-10">
+                  Germany
+                </text>
+                <circle
+                  cx="650"
+                  cy="140"
+                  id="c2"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.8"
+                  stroke-opacity="0.9"
+                >
+                  <animate
+                    begin="franceAnimate.end+0.1s"
+                    attributeType="xml"
+                    attributeName="r"
+                    from="0"
+                    to="20"
+                    dur="1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                  <animate
+                    attributeName="opacity"
+                    from="1"
+                    to="0"
+                    dur="1s"
+                    begin="franceAnimate.end+0.1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                </circle>
+
+                <circle
+                  class="c8"
+                  cx="650"
+                  cy="140"
+                  r="0"
+                  fill="#aed676"
+                  stroke="#aed676"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="au2"
+                    begin="franceAnimate.end"
+                    attributeName="r"
+                    from="3"
+                    to="8"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+                <circle
+                  class="c3"
+                  cx="650"
+                  cy="140"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="franceAnimate"
+                    begin="start.begin+1s"
+                    attributeName="r"
+                    from="0"
+                    to="3"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+              </g>
+              <path
+                class="box draw"
+                d="M 700 380 Q 600 380 650 140"
+                id="germany"
+                stroke="#8dc63f"
+                stroke-width="1"
+                fill="none"
+              ></path>
+              <g class="cHK" style={{ display: "block" }}>
+                <text x="720" y="240" dx="-60" dy="5">
+                  Korea
+                </text>
+                <circle
+                  cx="720"
+                  cy="240"
+                  r="0"
+                  id="c2"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.8"
+                  stroke-opacity="0.9"
+                >
+                  <animate
+                    begin="sinAnimate.end+0.1s"
+                    attributeType="xml"
+                    attributeName="r"
+                    from="0"
+                    to="20"
+                    dur="1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                  <animate
+                    attributeName="opacity"
+                    from="1"
+                    to="0"
+                    dur="1s"
+                    begin="sinAnimate.end+0.1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                </circle>
+
+                <circle
+                  class="c8"
+                  cx="720"
+                  cy="240"
+                  r="0"
+                  fill="#aed676"
+                  stroke="#aed676"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="au2"
+                    begin="sinAnimate.end"
+                    attributeName="r"
+                    from="3"
+                    to="8"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+                <circle
+                  class="3"
+                  cx="720"
+                  cy="240"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="au1"
+                    begin="start.begin"
+                    attributeName="r"
+                    from="0"
+                    to="3"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+              </g>
+              <path
+                class="box draw"
+                d="M 700 380 Q 890 350 720 240 "
+                id="hongkong"
+                stroke="#8dc63f"
+                stroke-width="1"
+                fill="none"
+              ></path>
+              <g class="cHK" style={{ display: "block" }}>
+                <text x="745" y="440" dx="-30" dy="30">
+                  Singapore{" "}
+                </text>
+                <circle
+                  cx="745"
+                  cy="440"
+                  r="0"
+                  id="c2"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.8"
+                  stroke-opacity="0.9"
+                >
+                  <animate
+                    begin="sinAnimate.end+0.1s"
+                    attributeType="xml"
+                    attributeName="r"
+                    from="0"
+                    to="20"
+                    dur="1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                  <animate
+                    attributeName="opacity"
+                    from="1"
+                    to="0"
+                    dur="1s"
+                    begin="sinAnimate.end+0.1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                </circle>
+
+                <circle
+                  class="c8"
+                  cx="745"
+                  cy="440"
+                  r="0"
+                  fill="#aed676"
+                  stroke="#aed676"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="au2"
+                    begin="sinAnimate.end"
+                    attributeName="r"
+                    from="3"
+                    to="8"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+                <circle
+                  class="c3"
+                  cx="745"
+                  cy="440"
+                  r="0"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="sinAnimate"
+                    begin="start.begin"
+                    attributeName="r"
+                    from="0"
+                    to="3"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+              </g>
+              <path
+                class="box draw"
+                d="M 700 380 Q 870 420 745 440 "
+                id="singapore"
+                stroke="#8dc63f"
+                stroke-width="1"
+                fill="none"
+              ></path>
+              <animate
+                class="anim1"
+                // xlink:href="#v-b"
+                attributeName="stroke-dashoffset"
+                from="3000"
+                to="0"
+                dur="2s"
+                begin="indefinite"
+                fill="freeze"
+                id="start"
+              ></animate>
+              <g class="cAu" style={{ display: "block" }}>
+                <text x="767" y="240" dx="-20" dy="-20">
+                  Japan
+                </text>
+                <circle
+                  class="c5"
+                  id="ctest"
+                  cx="767"
+                  cy="240"
+                  r="5"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.8"
+                  stroke-opacity="0.9"
+                >
+                  <animate
+                    id="japanEnd"
+                    begin="japanAnimate.end+0.1s"
+                    attributeType="xml"
+                    attributeName="r"
+                    from="0"
+                    to="20"
+                    dur="1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                  <animate
+                    attributeName="opacity"
+                    from="1"
+                    to="0"
+                    dur="1s"
+                    begin="japanAnimate.end+0.1s"
+                    repeatCount="indefinite"
+                  ></animate>
+                </circle>
+
+                <circle
+                  class="c8"
+                  cx="767"
+                  cy="240"
+                  r="8"
+                  fill="#aed676"
+                  stroke="#aed676"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="au2"
+                    begin="japanAnimate.end"
+                    attributeName="r"
+                    from="3"
+                    to="8"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+                <circle
+                  class="c3"
+                  cx="767"
+                  cy="240"
+                  r="3"
+                  fill="#8dc63f"
+                  stroke="#8dc63f"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="japanAnimate"
+                    begin="start.begin"
+                    attributeName="r"
+                    from="0"
+                    to="3"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+              </g>
+              <path
+                class="box draw"
+                d="M 700 380 Q 860 330 767 240 "
+                id="japan"
+                stroke="#8dc63f"
+                stroke-width="1"
+                fill="none"
+              ></path>
+              Sorry, your browser does not support inline SVG.
+              <g></g>
+              <g class="cVietNam">
+                <text x="700" y="380" dx="-60" dy="-20">
+                  Viet Nam
+                </text>
+                <circle
+                  cx="700"
+                  cy="380"
+                  r="15"
+                  fill="#ff4d4d"
+                  stroke="#ff4d4d"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.2"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    begin="cVN.end+0.1s"
+                    attributeType="xml"
+                    attributeName="r"
+                    from="10"
+                    to="15"
+                    dur="0.5s"
+                    repeatCount="1"
+                    fill="freeze"
+                  ></animate>
+                </circle>
+
+                <circle
+                  class="c8"
+                  cx="700"
+                  cy="380"
+                  r="10"
+                  fill="#ff1a1a"
+                  stroke="#ff1a1a"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id=""
+                    begin="cVN.end"
+                    attributeName="r"
+                    from="5"
+                    to="10"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+                <circle
+                  class="c3"
+                  cx="700"
+                  cy="380"
+                  r="5"
+                  fill="#ff4d4d"
+                  stroke="#ff4d4d"
+                  linejoin="round"
+                  stroke-width="1"
+                  fill-opacity="0.9"
+                  stroke-opacity="0.2"
+                >
+                  <animate
+                    attributeType="xml"
+                    id="cVN"
+                    begin="start.begin"
+                    attributeName="r"
+                    from="0"
+                    to="5"
+                    dur="0.5s"
+                    fill="freeze"
+                    repeatCount="1"
+                  ></animate>
+                </circle>
+              </g>
+            </g>
+          </svg>
+        </div>
+        {/* <div class="list-client">
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="ACB"
+                title="ACB"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="cmamc"
+                title="cmamc"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="http://smartwork.3i.com.vn/lib/delicate/images/partners/cmamc_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+        </div> */}
+
+        {/* <div class="list-client">
+          <div class="item">
+            <span>
+              <img
+                src="/assets/images/projects/project-three1.jpg"
+                alt="ACB"
+                title="ACB"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/cmamc_logo.png"
+                alt="cmamc"
+                title="cmamc"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/coast_guard_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/cucdiachat_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/hkace_logo.jpg"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/logo-ik.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/quanghanh_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/cuckhituongthuyvan_logo.jpg"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/haihoa_logo.jpg"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/summit_logo.jpg"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/tamlong_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/logo_vatco_blue.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/VIB_LOGO.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/viettel_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+          <div class="item">
+            <span>
+              <img
+                src="/lib/delicate/images/partners/Vinashin_logo.png"
+                alt="Topicus"
+                title="Topicus"
+                class=" img-fluid"
+              />
+            </span>
+          </div>
+        </div> */}
+      </div>
+    </div>
+  );
+};
+
+export default MapCustomer;
