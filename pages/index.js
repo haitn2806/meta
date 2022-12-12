@@ -49,7 +49,7 @@ const Index = () => {
 
         <RecentProjects data={product} id={product.id} />
 
-        <Subject />
+        {/* <Subject /> */}
 
         {/* <section className="statistics-area-three bgs-cover pb-20 rel z-1 mt-30">
           <div className="container">
