@@ -11,7 +11,7 @@ import Layout from "../src/layout/Layout";
 import MapCustomer from "../src/layout/MapCustomer";
 import Hero from "../src/components/home1/Hero";
 import MlSlide from "../src/components/meta-learn/Ml-Slide";
-import Subject from "../src/components/meta-learn/subjects";
+// import Subject from "../src/components/meta-learn/subjects";
 
 const Index = () => {
   const [data, setData] = useState([]);

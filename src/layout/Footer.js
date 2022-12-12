@@ -1,5 +1,5 @@
 import Link from "next/link";
-import start from "./record";
+// import start from "./record";
 const Footer = ({ footer }) => {
   switch (footer) {
     case 1:

@@ -4,7 +4,7 @@ import MobileMenu from "./MobileMenu";
 import { Dropdown } from "react-bootstrap";
 import { useState, useEffect, useRef } from "react";
 import Flags from "../components/Falgs";
-import start from "./record";
+// import start from "./record";
 const Header = ({ header }) => {
   switch (header) {
     case 1:
